@@ -1,0 +1,50 @@
+############################
+# NAMESPACE file for eegAnalysis #
+############################
+
+
+
+###
+# IMPORTS
+###
+
+import(e1071,wmtsa,splus2R)
+importFrom(fields, image.plot)
+
+
+###
+# S3 Functions
+###
+
+export(plotEEG)
+export(randEEG)
+export(plotwindows)
+export(featureSelection)
+export(FeatureEEG)
+export(svmEEG)
+export(classifyEEG)
+export(easyFeatures)
+
+###
+# Exported S3 Methods
+###
+
+S3method(print, RandEEG)
+S3method(print, svmEEG)
+S3method(print, plotwindows)
+S3method(print, featuresSelected)
+S3method(print, featureEEG)
+S3method(print, Features)
+
+S3method(summary, RandEEG)
+S3method(summary, svmEEG)
+S3method(summary, plotwindows)
+S3method(summary, featuresSelected)
+S3method(summary, featureEEG)
+S3method(summary, Features)
+
+S3method(plot, plotwindows)
+
+
+
+

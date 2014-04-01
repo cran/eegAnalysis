@@ -1,0 +1,15 @@
+Package: eegAnalysis
+Version: 0.0
+Date: 2014-04-01
+Title: Tools for analysis and classification of electroencephalography
+        (EEG) data.
+Author: Murilo Coutinho Silva (University of Brasilia, Brazil), George Freitas von Borries (University of Brasilia, Brazil)
+Maintainer: Murilo Coutinho Silva <coutinho.stat@gmail.com>
+Depends: R (>= 3.0.0), e1071 (>= 1.6), wmtsa (>= 2.0-0) , fields (>=
+        6.9.1), splus2R (>= 1.2-0)
+Description: Package with tools for classification of electroencephalography (EEG) data. Feature extraction techniques such as Fourier Transform and Continuous Wavelet Transform (CWT) are available. Support Vector Machines (SVM) can be used to classify the extracted features. An algorithm using Analysis of Variance (ANOVA), False Discovery Rate (FDR), and SVM is available to feature selection. Additionally, the package contains functions to plot data and features.
+License: GPL (>= 2)
+Packaged: 2014-06-22 10:37:51 UTC; murilocoutinho
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2014-06-22 15:48:01
